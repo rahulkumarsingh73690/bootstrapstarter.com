@@ -1,0 +1,17 @@
+url: "https://bootstrapstarter.com"
+baseurl:
+name: Bootstrap Starter
+description: Free Bootstrap Templates for your next project. Open source, free for personal and commercial use.
+author: Sal
+license: MIT
+
+permalink: /bootstrap-templates/:title/
+
+plugins: 
+    - jekyll-paginate
+    - jekyll-sitemap
+
+highlighter: pygments
+paginate: 18
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']

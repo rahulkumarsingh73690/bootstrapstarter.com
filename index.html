@@ -1,0 +1,29 @@
+---
+layout: default
+title: Free Bootstrap Themes and Templates
+description: Download a free, open source theme to kickstart your Bootstrap website. Free Bootstrap templates for your personal, commercial and client projects.
+---
+
+<div class="px-3 pt-md-5 mx-auto text-center">        
+    <h1 class="display-4">Bootstrap Starter</h1>
+    <p class="lead">Download  {{ site.posts | size }} free, open source <b>themes</b> to kickstart your Bootstrap website</p>
+    <a href="{{ base.url}}/bootstrap-templates/"><img src="{{base.url}}/assets/img/sal.jpg"></a>
+</div>
+
+<div class="mx-auto text-center">
+<h1 class="display-6">Latest Themes</h1>
+</div>
+
+<div class="row mt-5 cardrecent">
+    
+    {% for post in paginator.posts %}
+    
+        <div class="col-md-6">
+            
+            {% include themecard.html %}
+            
+        </div>
+    
+    {% endfor %}
+    
+</div>
