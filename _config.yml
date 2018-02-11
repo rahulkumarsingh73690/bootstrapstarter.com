@@ -11,7 +11,7 @@ plugins:
     - jekyll-paginate
     - jekyll-sitemap
 
-highlighter: pygments
+highlighter: rouge
 paginate: 18
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
