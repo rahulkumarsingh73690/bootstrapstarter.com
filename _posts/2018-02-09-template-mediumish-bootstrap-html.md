@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Mediumish"
+title: "Mediumish - Free Bootstrap HTML Template"
+theme: "Mediumish"
 subtitle: "HTML Bootstrap Template for Bloggers"          
 categories:
     - HTML
@@ -10,7 +11,7 @@ tags:
 version:
     - Bootstrap 4
 description: "A blogging theme for Bootstrap 4, highly inspired by Medium's layout."
-img: /assets/img/themes/mediumish-html.jpg
+image: /assets/img/themes/mediumish-html.jpg
 demo: http://www.themepush.com/freethemes/mediumish/index.html
 download: https://gum.co/free-mediumish-html-template?wanted=true
 ---

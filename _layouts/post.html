@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<div class="page-header mx-auto text-center pt-5 pb-5"> 
-<h1 class="display-4">{{ page.title }} - {{ page.subtitle }}</h1>
+<div class="page-header mx-auto text-center pt-5 pb-4"> 
+<h1 class="display-4">{{ page.theme }} - {{ page.subtitle }}</h1>
 <h2 class="lead">Free template to kickstart your Bootstrap website</h2>
 </div>
 
 <div class="row">
 <div class="col-md-6">
 <div class="themecard">
-<img src="{{ page.img }}">
-<h1 class="pt-4">{{ page.title }}</h1>
+<img src="{{ page.image }}">
+<h1 class="pt-4">{{ page.theme }}</h1>
 <h2 class="pb-4">{{ page.subtitle }}</h2>
 {% if page.previous.url %}<a class="prevtheme" href="{{page.previous.url}}"> &lt;  Previous Theme </a> {% endif %}
   {% if page.next.url %} <a class="nexttheme" href="{{page.next.url}}"> &gt; Next Theme </a> {% endif %} </div>
@@ -18,7 +18,7 @@ layout: default
 
 <div class="col-md-6">
 <p>{{ page.description }}</p>
-    <p><strong>{{ page.title }}</strong> is a responsive <strong>{{ page.subtitle }}</strong>, compatible with {{ page.version }}, free for personal and commercial use.</p>
+    <p><strong>{{ page.theme }}</strong> is a responsive <strong>{{ page.subtitle }}</strong>, compatible with {{ page.version }}, free for personal and commercial use.</p>
 
 Category: 
   {% if post %}
@@ -56,7 +56,7 @@ Version: {{ page.version }}<br>
 {{ content }}
 
 
-<div class="pricing-header px-3 py-3 pt-5 pb-md-4 mx-auto text-center">
+<div class="page-header mx-auto text-center pt-4 pb-4"> 
 <h1 class="display-6">Recommended for You</h1>
 </div>
 <div class="row justify-content-center cardrecent">

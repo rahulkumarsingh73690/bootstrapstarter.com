@@ -2,14 +2,45 @@ url: "https://bootstrapstarter.com"
 baseurl:
 name: Bootstrap Starter
 description: Free Bootstrap Templates for your next project. Open source, free for personal and commercial use.
-author: Sal
 license: MIT
 
+social:
+  name: Bootstrap Starter
+  links:
+    - https://twitter.com/bootstrapstartr
+    - https://www.facebook.com/bootstrapstarter/
+    - https://plus.google.com/u/0/115693939297534707177
+    - https://github.com/wowthemesnet
+    
+locale: en_us
+
+lang: en_us
+
+author: Sal
+
+logo: /assets/img/logo.png
+
+author:
+  facebook: bootstrapstarter
+  twitter: bootstrapstartr
+  
+facebook:
+  app_id: 1234
+  publisher: 1234
+  admins: 1234
+  
+twitter:
+  username: bootstrapstartr
+  
+webmaster_verifications:
+  google: 6Is1whz1UZbjrp5vrSn-iQnYtE6AnDc4UTDd2KRJlPs
+  
 permalink: /bootstrap-templates/:title/
 
 plugins: 
     - jekyll-paginate
     - jekyll-sitemap
+    - jekyll-seo-tag
 
 highlighter: rouge
 paginate: 18
