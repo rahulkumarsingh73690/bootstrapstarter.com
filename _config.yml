@@ -25,9 +25,9 @@ author:
   twitter: bootstrapstartr
   
 facebook:
-  app_id: 1234
-  publisher: 1234
-  admins: 1234
+  app_id: 784783748398659
+  publisher: https://www.facebook.com/bootstrapstarter/
+  admins: https://www.facebook.com/sal.cos8
   
 twitter:
   username: bootstrapstartr
@@ -41,6 +41,7 @@ plugins:
     - jekyll-paginate
     - jekyll-sitemap
     - jekyll-seo-tag
+    - jekyll-last-modified-at
 
 highlighter: rouge
 paginate: 18
