@@ -15,5 +15,4 @@ description: "A blogging theme for Bootstrap 4 suitable for affiliate marketers.
 image: /assets/img/themes/affiliates-html.jpg
 demo: http://themepush.com/freethemes/affiliates/index.html
 download: https://gum.co/affiliates-html-template
-
 ---
