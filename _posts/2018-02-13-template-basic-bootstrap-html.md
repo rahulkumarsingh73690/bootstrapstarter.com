@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic - HTML Bootstrap 4 Starter Template"
-theme: "Affiliates"
+theme: "Basic"
 subtitle: "HTML Bootstrap 4 Starter Template"
 categories:
     - HTML
