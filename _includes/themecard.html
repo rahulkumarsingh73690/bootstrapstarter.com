@@ -1,7 +1,10 @@
 <div class="themecard">
-<a href="{{ post.url }}">
-<img src="{{ post.image }}">
-<h1 class="pt-4 text-dark">{{ post.theme }}</h1>
-<h2 class="pb-4 text-muted">{{ post.subtitle }}</h2>
-</a>
+    <a class="hoverbox" href="{{post.url}}" >
+        <span class="btn btn-primary btn-details bshadow">Details</span>
+    </a>
+    <a href="{{ post.url }}">
+        <img src="{{ post.image }}">
+        <h1 class="pt-4 text-dark">{{ post.theme }}</h1>
+        <h2 class="pb-4 text-muted">{{ post.subtitle }}</h2>
+    </a>
 </div>

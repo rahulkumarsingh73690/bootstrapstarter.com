@@ -9,8 +9,8 @@ image: /assets/img/sal.jpg
     <p class="lead">Download a free, open source theme to kickstart your Bootstrap website</p>
 </div>
 
-<div class="row justify-content-center cardrecent">
-{% for post in site.posts reversed %}
+<div class="row cardrecent">
+{% for post in site.posts %}
 <div class="col-md-6">
     {% include themecard.html %}
 </div>

@@ -5,11 +5,13 @@ theme: "Mediumish"
 subtitle: "HTML Bootstrap Template for Bloggers"          
 categories:
     - HTML
+    - Popular
 tags: 
     - blogging
     - masonry
 version:
     - Bootstrap 4
+github: false
 description: "A blogging theme for Bootstrap 4, highly inspired by Medium's layout."
 image: /assets/img/themes/mediumish-html.jpg
 demo: http://www.themepush.com/freethemes/mediumish/index.html

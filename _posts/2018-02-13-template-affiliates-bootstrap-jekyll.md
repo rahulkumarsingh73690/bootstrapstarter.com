@@ -10,8 +10,7 @@ tags:
     - masonry
 version:
     - Bootstrap 4
+githubslug: affiliates-jekyll-theme
 description: "A Jekyll template built with Bootstrap 4 suitable for affiliate marketers."
 image: /assets/img/themes/affiliates-jekyll.jpg
-demo: https://wowthemesnet.github.io/affiliates-jekyll-theme/
-download: https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip
 ---

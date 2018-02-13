@@ -17,7 +17,7 @@ image: /assets/img/sal.jpg
 
 <div class="row mt-5 cardrecent">
     
-    {% for post in paginator.posts %}
+    {% for post in site.posts limit:6 %}
     
         <div class="col-md-6">
             
@@ -27,4 +27,8 @@ image: /assets/img/sal.jpg
     
     {% endfor %}
     
+</div>
+
+<div class="row mt-3 justify-content-center">
+    <a class="btn btn-primary btn-lg bshadow" href="{{ base.url}}/bootstrap-templates">View All Themes</a>
 </div>

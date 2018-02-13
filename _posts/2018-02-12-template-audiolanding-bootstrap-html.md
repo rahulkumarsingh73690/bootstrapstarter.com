@@ -9,6 +9,7 @@ version:
     - Bootstrap 4
 tags: 
     - landing-page
+github: false
 description: "A Bootstrap 4 HTML landing page template."
 image: /assets/img/themes/audiolanding-html.jpg
 demo: http://www.themepush.com/freethemes/audiolanding/index.html
