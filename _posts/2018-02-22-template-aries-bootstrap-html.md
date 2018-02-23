@@ -38,7 +38,7 @@ Aries is another [Bootstrap](https://getbootstrap.com/) 4.0 template designed an
 - Get started:
     - `gulp serve` - starts localhost server with browser-sync, watches html sass js with hot reloading
     - `gulp` - minify css/js and builds your app into the docs directory, ready for production
-    - `header` and `footer` are edited via `partials` folder ONLY. Any change you make here will automatically update all your files, so you don not have to manually modify them each time edit your menu (as an example). The output in the main files will be wrapped between:
+    - `header` and `footer` are edited via `partials` folder ONLY. Any change you make here will automatically update all your files. The output in the main files will be wrapped between:
     
 ~~~html
 <!-- inject:partials/header.html -->

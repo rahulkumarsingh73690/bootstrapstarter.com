@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basic - Bootstrap 4 Boilder Template"
+title: "Basic - Bootstrap 4 Boiler Template"
 theme: "Basic"
 subtitle: "Bootstrap 4 Boiler Template"
 categories:
