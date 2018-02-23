@@ -19,7 +19,7 @@ image: /assets/img/themes/aries-html.jpg
 
 # Template Aries Bootstrap HTML
 
-Aries is another [Bootstrap](https://getbootstrap.com/) 4.0 template designed and developed by [me] (https://www.wowthemes.net/) and distributed by [Bootstrap Starter](https://bootstrapstarter.com/). The theme is built with Sass, concatenation, minification, autoprefixer, Browsersync, hot reloading and sourcemaps all ran by [Gulp](https://gulpjs.com/). A great Bootstrap starter template for both, beginners and developers.
+Aries is another [Bootstrap](https://getbootstrap.com/) 4.0 template designed and developed by [me](https://www.wowthemes.net/) and distributed by [Bootstrap Starter](https://bootstrapstarter.com/). The theme is built with Sass, concatenation, minification, autoprefixer, Browsersync, hot reloading and sourcemaps all ran by [Gulp](https://gulpjs.com/). A great Bootstrap starter template for both, beginners and developers.
 
 ## Beginners
 
