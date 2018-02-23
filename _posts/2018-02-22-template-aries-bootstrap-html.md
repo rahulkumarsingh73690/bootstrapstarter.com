@@ -13,13 +13,13 @@ tags:
     - portfolio
     - freelancer
     - full-websites
-description: "Aries is a Bootstrap 4.0 template built with Sass, concatenation, minification, autoprefixer, Browsersync, hot reloading and sourcemaps all runned by Gulp. A great Bootstrap starter template for both, beginnners and developers."
+description: "Aries is a Bootstrap 4.0 template built with Sass, concatenation, minification, autoprefixer, Browsersync, hot reloading and sourcemaps all ran by Gulp. A great Bootstrap starter template for both, beginners and developers."
 image: /assets/img/themes/aries-html.jpg
 ---
 
 # Template Aries Bootstrap HTML
 
-Aries is another [Bootstrap](https://getbootstrap.com/) 4.0 template designed and developed by me ([Sal])(https://www.wowthemes.net/) and distributed by [Bootstrap Starter](https://bootstrapstarter.com/). The theme is built with Sass, concatenation, minification, autoprefixer, Browsersync, hot reloading and sourcemaps all runned by [Gulp](https://gulpjs.com/). A great Bootstrap starter template for both, beginnners and developers.
+Aries is another [Bootstrap](https://getbootstrap.com/) 4.0 template designed and developed by [me] (https://www.wowthemes.net/) and distributed by [Bootstrap Starter](https://bootstrapstarter.com/). The theme is built with Sass, concatenation, minification, autoprefixer, Browsersync, hot reloading and sourcemaps all ran by [Gulp](https://gulpjs.com/). A great Bootstrap starter template for both, beginners and developers.
 
 ## Beginners
 
@@ -33,7 +33,7 @@ Aries is another [Bootstrap](https://getbootstrap.com/) 4.0 template designed an
 ## Developers
 
 - Clone this repo: `git clone https://github.com/wowthemesnet/template-aries-bootstrap-html.git`
-- Navigate into the repo directory: `cd template-aries-bootstrap-html`
+- Navigate to the repo directory: `cd template-aries-bootstrap-html`
 - Install all node packages: `npm install`
 - Get started:
     - `gulp serve` - starts localhost server with browser-sync, watches html sass js with hot reloading
@@ -50,11 +50,11 @@ Aries is another [Bootstrap](https://getbootstrap.com/) 4.0 template designed an
 <!-- endinject -->
 ~~~
     
-So, make sure you do not touch anything between these tags in the main files. Just edit your header in footer in `partials` and simply watch the changes.
+So, make sure you do not touch anything between these tags in the main files. Just edit your header & footer in `partials` and simply watch the changes.
 
 ## Requirements
 
-This project requires you to have a installation of [nodejs](https://nodejs.org/en/) with [npm](https://www.npmjs.com/get-npm)
+This project requires you to have an installation of [nodejs](https://nodejs.org/en/) with [npm](https://www.npmjs.com/get-npm)
 This project also requires you to have global installations of [gulp](http://gulpjs.com/).
 
 Install gulp globally:
@@ -66,7 +66,7 @@ Install gulp globally:
 **gulp serve**
 
 The gulp serve command starts a local Browsersync server that serves your files in the browser.
-It automatically reload the current page when changing html, sass and js files.
+It automatically reloads the current page when changing html, sass and js files.
 The output of all sass files go to main.css.
 All js files are concatenated into main.js.
 You can access the project live in development with other devices on the same network. Go to the "External" address specified by Browsersync in the terminal in the browser of your device.
@@ -82,9 +82,9 @@ It minifies and renames js/css assets as well as cleaning the old "docs" directo
 
 **gulp concatScripts**
 
-The gulp concatScripts command combines the specified js ressources into main.js.
+The gulp concatScripts command combines the specified js resources into main.js.
 You can add new js files to this command on line 16 in gulpfile.js
-You might want to run concatScripts once seperately after adding new js files.
+You might want to run concatScripts once separately after adding new js files.
 
 `gulp concatScripts`
 
