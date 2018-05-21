@@ -13,6 +13,8 @@ tags:
     - portfolio
     - freelancer
     - full-websites
+    - photography
+    - masonry
 description: "Pintereso is a Bootstrap 4.x template inspired by Pinterest style. This is a great design for photography websites, portfolios, freelancing, collections etc. A great Bootstrap starter template for both, beginners and developers."
 image: /assets/img/themes/pintereso-html.jpg
 ---
