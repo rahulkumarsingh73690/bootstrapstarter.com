@@ -2,7 +2,7 @@
 layout: post
 title: "Mediumish - Free Jeyll Theme"
 theme: "Mediumish"
-subtitle: "Jekyll Bootstrap Template"          
+subtitle: "Jekyll Bootstrap Theme"          
 categories:
     - Jekyll
     - Popular
