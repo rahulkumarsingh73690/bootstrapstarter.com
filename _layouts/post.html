@@ -90,8 +90,7 @@ Version: {{ page.version }}<br>
     
 </div>
 
-{% assign content = page.content | strip_newlines %}
-{% if content == ""  %}  {% else %}
+
 <div class="row justify-content-center">
 <div class="col-md-10 mb-4">
 <div style="padding: 30px; border-radius: 3.5px;
@@ -99,10 +98,12 @@ Version: {{ page.version }}<br>
 <div class="post-article">
 {{ content }}
 </div>
+{% include fbcomment.html %}
 </div>
 </div>
 </div>
-{% endif %}
+
+
 
 <div class="page-header mx-auto text-center pt-5 pb-4"> 
  <h6>&rarr; More recommended for you</h6>

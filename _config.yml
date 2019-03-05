@@ -21,6 +21,9 @@ author: Sal
 
 logo: /assets/img/logo.png
 
+# To use Facebook Comments, fill in a Facebook App ID
+fb_comment_id: "592355564574617"
+
 author:
   facebook: bootstrapstarter
   twitter: bootstrapstartr
