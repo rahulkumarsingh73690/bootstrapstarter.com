@@ -7,17 +7,18 @@ layout: default
 </div>
 
 <div class="row justify-content-center">
-<div class="col-md-5">
-<div class="themecard">
-<img src="{{ page.image }}">
-<h1 class="pt-4">{{ page.theme }}</h1>
-<h2 class="pb-4">{{ page.subtitle }}</h2>
-{% if page.previous.url %}<a class="prevtheme" href="{{page.previous.url}}"> &lt;  Previous Theme </a> {% endif %}
-  {% if page.next.url %} <a class="nexttheme" href="{{page.next.url}}"> &gt; Next Theme </a> {% endif %} 
-</div>
-</div>
 
-<div class="col-md-6">
+<div class="col-md-5">
+    <div class="themecard">
+    <img src="{{ page.image }}">
+    <h1 class="pt-4">{{ page.theme }}</h1>
+    <h2 class="pb-4">{{ page.subtitle }}</h2>
+    {% if page.previous.url %}<a class="prevtheme" href="{{page.previous.url}}"> &lt;  Previous Theme </a> {% endif %}
+    {% if page.next.url %} <a class="nexttheme" href="{{page.next.url}}"> &gt; Next Theme </a> {% endif %} 
+    </div>
+</div>
+    
+<div class="col-md-5">
 {% unless page.github == false %}
     {% if page.githubslug %}
         <li class="list-inline-item mb-3">
@@ -83,15 +84,27 @@ Tags: {% if post %}
 <br>
 Version: {{ page.version }}<br>
 
-
 </div>
+    
+
+    
 </div>
 
+{% assign content = page.content | strip_newlines %}
+{% if content == ""  %}  {% else %}
+<div class="row justify-content-center">
+<div class="col-md-10 mb-4">
+<div style="padding: 30px; border-radius: 3.5px;
+    box-shadow: 0 0px 0px 1px rgba(0,0,0,.05);">
 <div class="post-article">
 {{ content }}
 </div>
+</div>
+</div>
+</div>
+{% endif %}
 
-<div class="page-header mx-auto text-center pt-4 pb-4"> 
+<div class="page-header mx-auto text-center pt-5 pb-4"> 
  <h6>&rarr; More recommended for you</h6>
 </div>
 <div class="row justify-content-center cardrecent">
