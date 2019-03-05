@@ -7,7 +7,6 @@ categories:
     - Jekyll
 tags: 
     - blogging
-    - masonry
     - portfolio
     - freelancer
     - full-websites
