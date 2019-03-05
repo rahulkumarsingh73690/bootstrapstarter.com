@@ -19,4 +19,4 @@ By using one of the items provided by bootstrapstarter.com (The Site) you indica
 ## **Licensing**
 - Our items are licensed under MIT.
 - No support can be claimed for free items, the product is used as is.
-- You have the option to remove footer credits [here]({{base.url}}/contribute/)
+- You have the option to remove footer credits [here](https://www.wowthemes.net/donate/)
