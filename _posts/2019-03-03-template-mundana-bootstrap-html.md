@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Mediumish - Free Bootstrap HTML Template"
-theme: "Mediumish"
+title: "Mundana - Free Bootstrap HTML Template"
+theme: "Mundana"
 subtitle: "HTML Bootstrap Template for Bloggers"          
 categories:
     - HTML
