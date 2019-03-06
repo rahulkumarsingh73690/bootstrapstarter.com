@@ -62,28 +62,43 @@ layout: default
     
 <p>{{ page.description }}</p>
     <p><strong>{{ page.theme }}</strong> is a responsive <strong>{{ page.subtitle }}</strong>, compatible with {{ page.version }}, free for personal and commercial use.</p>
+    
+    {% if page.wp or page.html or page.html or page.ghost or page.jekyll or page.hugo or page.grav %}
+    <p class="alsoavailable"> {{ page.theme }} is <span class="badge badge-primary font-weight-normal" style="font-size:14px;">also available as</span> 
+    {% if page.wp %} <a href="{{page.wp}}">WordPress</a> {% endif %} 
+    {% if page.html %} <a href="{{page.html}}">HTML</a> {% endif %} 
+    {% if page.ghost %} <a href="{{page.ghost}}">Ghost</a> {% endif %} 
+    {% if page.jekyll %} <a href="{{page.jekyll}}">Jekyll</a> {% endif %} 
+    {% if page.hugo %} <a href="{{page.hugo}}">Hugo</a> {% endif %} 
+    {% if page.grav %} <a href="{{page.grav}}">Grav</a> {% endif %} 
+    </p>
+    {% endif %}
 
-Category: 
-  {% if post %}
+    Category:
+    {% if post %}
     {% assign categories = post.categories %}
-  {% else %}
+    {% else %}
     {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/template-categories/{{category | downcase}}/">{{category}}</a>{% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-<br>
-Tags: {% if post %}
+    {% endif %}
+    {% for category in categories %}
+    <a href="{{site.baseurl}}/template-categories/{{category | downcase}}/">{{category}}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    <br>
+    
+    Tags: 
+    {% if post %}
     {% assign tags = post.tags %}
-  {% else %}
+    {% else %}
     {% assign tags = page.tags %}
-  {% endif %}
-  {% for tag in tags %}
-  <a href="{{site.baseurl}}/template-tags/{{tag | downcase}}/">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-<br>
-Version: {{ page.version }}<br>
-
+    {% endif %}
+    {% for tag in tags %}
+    <a href="{{site.baseurl}}/template-tags/{{tag | downcase}}/">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    <br>
+    
+    Version: {{ page.version }}<br><br/>
+    <a class="btn btn-outline-secondary btn-round d-inline-flex align-items-center" href="http://bootstrapstarter.com/contribute/"><img class="mr-1" src="https://www.wowthemes.net/donate/img/coffee.svg" height="20"> Buy me a coffee</a>
+   
 </div>
     
 
@@ -93,16 +108,16 @@ Version: {{ page.version }}<br>
 
 <div class="row justify-content-center">
 <div class="col-md-10 mb-4">
-<div style="padding: 30px; border-radius: 3.5px;
-    box-shadow: 0 0px 0px 1px rgba(0,0,0,.05);">
 <div class="post-article">
 {{ content }}
 </div>
-{% include fbcomment.html %}
-</div>
-</div>
 </div>
 
+<div class="col-md-10">
+   {% include fbcomment.html %}
+</div>
+
+</div>
 
 
 <div class="page-header mx-auto text-center pt-5 pb-4"> 

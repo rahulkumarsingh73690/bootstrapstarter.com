@@ -12,7 +12,9 @@ tags:
     - freelancer
     - full-websites
 version:
-    - Bootstrap 4
+    - Bootstrap 4.1.3
+jekyll: https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/
+wp: https://www.wowthemes.net/themes/mundana-wordpress/
 description: "A blogging theme for Bootstrap 4, highly inspired by Medium's layout."
 image: /assets/img/themes/mundana-html.jpg
 ---

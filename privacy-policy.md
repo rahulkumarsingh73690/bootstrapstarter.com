@@ -3,11 +3,6 @@ title: Privacy Policy
 layout: default
 permalink: /privacy-policy/
 ---
-<style>
-h2{margin-bottom:2rem;}
-h3, h4 {margin-bottom:1.5rem;}
-</style>
-
 <div class="mx-auto text-center pt-5 pb-4">
     <h1 class="display-4">Privacy Policy</h1>
     <p class="lead">Updated on May 23, 2018 for GDPR compliance</p>

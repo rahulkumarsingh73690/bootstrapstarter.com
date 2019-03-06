@@ -28,8 +28,9 @@ h2.lead {
 	margin-bottom:1rem;
 }
 .post-article  h2 {margin-bottom: 1.5rem; font-size:1.7rem;}
-.post-article  h1 {margin-bottom: 1.5rem; font-size:2.2rem;margin-top:1rem;}
-h1,h2,h3,h4,h5,h6 {color:#222;}
+.post-article  h1 {margin-bottom: 1.5rem; font-size:2.2rem;margin-top:1rem;    font-weight: 300;}
+h1,h2,h3,h4,h5,h6, strong, b {color:#222;}
+pre {color:#4c5d8e;}
 .borderall {
 	border:1px solid #e5e5e5;
 }
@@ -275,3 +276,12 @@ footer.list-unstyled {
     transition: 0.3s all linear !important;
 }
 .text-muted {color:#8f9eab!important}
+
+.alsoavailable a:after{
+    content:',';
+}
+.alsoavailable a:last-child:after {
+    content:none;
+}
+.btn-round {border-radius:30px;}
+.premium img {height:auto;width: auto;}
