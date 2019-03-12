@@ -19,7 +19,7 @@ image: /assets/img/themes/aries-html.jpg
 ---
 
 
-# Documentation Template Aries Bootstrap HTML
+# Template Aries Bootstrap HTML - Documentation
 
 ## Beginners
 
