@@ -18,3 +18,74 @@ githubslug: mediumish-theme-jekyll
 description: "A Jekyll template built with Bootstrap 4 suitable for bloggers. Highly inspired by Medium's website layout."
 image: /assets/img/themes/mediumish-jekyll.jpg
 ---
+
+#### Features
+
+*   Built for Jekyll
+*   Compatible with Github pages
+*   Featured Posts
+*   Index Pagination
+*   SEO
+*   Feed
+*   Sitemap
+*   Post Share
+*   Post Categories
+*   Prev/Next Link
+*   Category Archives (Compatible with Github pages)
+*   Jumbotron Categories
+*   Post Reviews with Stars
+*   Blurred Spoilers
+*   Integrations:
+    *   Disqus Comments
+    *   Google Analaytics
+    *   Mailchimp Integration
+*   Design Features:
+    *   Bootstrap v4.x
+    *   Font Awesome
+    *   Masonry
+*   Layouts:
+    *   Default
+    *   Post
+    *   Page
+    *   Archive
+    *   Categories (for 100% compatibility with Github pages)
+
+#### What's Jekyll
+
+If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked...just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! This page itself is free hosted on Github with the help of Jekyll and Mediumish template that you're currently previewing. If you are a beginner we recommend you start with [Jekyll's Docs](https://jekyllrb.com/docs/installation/). Now if you know how to use Jekyll, let's move on to using Mediumish template in Jekyll:
+
+#### How to use "Mediumish" theme
+
+1.  [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) or `git clone https://github.com/wowthemesnet/mediumish-theme-jekyll.git`
+2.  `cd mediumish-theme-jekyll`
+3.  `bundle`
+4.  Edit `_config.yml` options. If your site is in root: `baseurl: ''`. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
+5.  `jekyll serve --watch`
+6.  Start by adding your `.md` files in `_posts`. Mediumish already has a few examples.
+7.  YAML front matter
+    *   featured post - `featured:true`
+    *   exclude featured post from "All stories" loop to avoid duplicated posts - `hidden:true`
+    *   post image - `image: assets/images/mypic.jpg`
+    *   external post image - `image: "https://externalwebsite.com/image4.jpg"`
+    *   page comments - `comments:true`
+    *   meta description (optional) - `description: "this is my meta description"`
+
+##### YAML Post Example:
+
+    ---
+    layout: post
+    title:  "We all wait for summer"
+    author: john
+    categories: [ Jekyll, tutorial ]
+    image: assets/images/5.jpg
+    description: "Something about this post here"
+    rating: 4.5
+    ---
+
+##### YAML Page Example
+
+    ---
+    layout: page
+    title: Mediumish Template for Jekyll
+    comments: true
+    ---
