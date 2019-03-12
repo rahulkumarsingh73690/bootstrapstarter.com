@@ -19,6 +19,8 @@ description: "A Jekyll template built with Bootstrap 4 suitable for bloggers. Hi
 image: /assets/img/themes/mediumish-jekyll.jpg
 ---
 
+# "Mediumish" is a free Bootstrap Jekyll theme for blogging, collections, resources, reviews websites
+
 #### Features
 
 *   Built for Jekyll
