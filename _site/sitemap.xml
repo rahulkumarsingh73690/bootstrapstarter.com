@@ -41,6 +41,10 @@
 <lastmod>2019-03-06T10:57:28+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/bootstrap-templates/wow-gulp-wordpress-starter-theme/</loc>
+<lastmod>2019-03-21T14:14:29+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 <lastmod>2019-03-05T14:45:30+02:00</lastmod>
 </url>
@@ -135,5 +139,9 @@
 <url>
 <loc>http://localhost:4000/unsubscribed-newsletter/</loc>
 <lastmod>2019-03-05T19:15:36+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/template-categories/wordpress/</loc>
+<lastmod>2019-03-21T14:16:55+02:00</lastmod>
 </url>
 </urlset>
