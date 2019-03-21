@@ -123,7 +123,7 @@ layout: default
 <div class="row justify-content-center mt-4 mb-4">
     <div class="col-md-10">
         <div class="row">
-            <div class="col-md-5"><div class="sticky-top">
+            <div class="col-md-4"><div class="sticky-top">
                 <ins class="adsbygoogle"
                 style="display:block; text-align:center;"
                 data-ad-layout="in-article"
@@ -133,9 +133,12 @@ layout: default
                 <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
+                  {% if page.previous.url %}<a class="prevtheme" href="{{page.previous.url}}"> &lt;  Previous Theme </a> {% endif %}
+                  {% if page.next.url %} <a class="nexttheme" href="{{page.next.url}}"> &gt; Next Theme </a> {% endif %} 
+                  
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="post-article mb-4">
                 {{ content }}
                 </div>
