@@ -5,7 +5,7 @@ html {
     font-weight:300;
 }
 body {
-    color:#4c5d8e;
+    color:#666f80;
     font-size:15px;
     line-height:1.8;
         padding-top: 4rem;
@@ -30,7 +30,7 @@ h2.lead {
 .post-article  h2 {margin-bottom: 1.5rem; font-size:1.7rem;}
 .post-article  h1 {margin-bottom: 1.5rem; font-size:2.2rem;margin-top:1rem;    font-weight: 300;}
 h1,h2,h3,h4,h5,h6, strong, b {color:#222;}
-pre {color:#4c5d8e;}
+pre {color:#666f80;}
 .borderall {
 	border:1px solid #e5e5e5;
 }
