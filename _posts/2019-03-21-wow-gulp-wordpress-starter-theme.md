@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Developer's Starter WordPress"
-theme: "WordPress Starter Theme with Gulp"
-subtitle: "Boilerplate WordPress theme with Sass and Gulp"          
+theme: "Wow Gulp WP Starter"
+subtitle: "Gulp WordPress starter theme for developers."          
 categories:
     - WordPress
     - Popular
