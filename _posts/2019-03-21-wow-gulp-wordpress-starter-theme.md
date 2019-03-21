@@ -14,6 +14,7 @@ tags:
 description: "Developer's Starter WordPress theme with Gulp. Browsersync, Sass, concatenation, style & scripts minify, POT file generator, .zip theme generator"
 image: /assets/img/themes/wow-gulp-wp-starter.jpg
 githubslug: Wow-Gulp-WP-Starter
+demo: false
 ---
 
 # Automate your WordPress theme development with Wow Gulp WP Starter Theme
