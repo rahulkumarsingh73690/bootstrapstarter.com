@@ -37,10 +37,13 @@ image: /assets/img/themes/mediumish-jekyll.jpg
 *   Jumbotron Categories
 *   Post Reviews with Stars
 *   Blurred Spoilers
+*   Table of Content
+*   Lazy Load Images
 *   Integrations:
     *   Disqus Comments
     *   Google Analaytics
     *   Mailchimp Integration
+    *   Adsense
 *   Design Features:
     *   Bootstrap v4.x
     *   Font Awesome
@@ -72,7 +75,7 @@ If you aren't familiar with Jekyll yet, you should know that it is a static site
     *   page comments - `comments:true`
     *   meta description (optional) - `description: "this is my meta description"`
 
-##### YAML Post Example:
+#### YAML Post Example:
 
     ---
     layout: post
@@ -84,10 +87,48 @@ If you aren't familiar with Jekyll yet, you should know that it is a static site
     rating: 4.5
     ---
 
-##### YAML Page Example
+#### YAML Page Example
 
     ---
     layout: page
     title: Mediumish Template for Jekyll
     comments: true
     ---
+
+#### Adsense
+
+Enable this option by editing `_config.yml`. 
+
+```
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+```
+
+#### Lazy Load Images
+
+Enable this option by editing  `_config.yml`. 
+
+```
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+```
+
+#### Table of Contents
+
+Add `toc:true` on your post YAML.
+
+```
+---
+layout: post
+title:  "Education must also train one for quick, resolute and effective thinking."
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/3.jpg
+beforetoc: "Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post."
+toc: true
+---
+```
+
+`beforetoc` adds a paragraph before the TOC is displayed. [Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/education/)
