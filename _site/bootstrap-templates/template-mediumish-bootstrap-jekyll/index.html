@@ -31,7 +31,7 @@
 <meta property="fb:app_id" content="784783748398659" />
 <meta name="google-site-verification" content="6Is1whz1UZbjrp5vrSn-iQnYtE6AnDc4UTDd2KRJlPs" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/bootstrap-templates/template-mediumish-bootstrap-jekyll/","headline":"Mediumish - Free Jeyll Theme","dateModified":"2019-03-12T13:00:45+02:00","datePublished":"2019-03-02T00:00:00+02:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"}},"description":"A Jekyll template built with Bootstrap 4 suitable for bloggers. Highly inspired by Medium’s website layout.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/bootstrap-templates/template-mediumish-bootstrap-jekyll/"},"@type":"BlogPosting","image":"http://localhost:4000/assets/img/themes/mediumish-jekyll.jpg","@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/bootstrap-templates/template-mediumish-bootstrap-jekyll/","headline":"Mediumish - Free Jeyll Theme","dateModified":"2019-03-22T16:39:52+02:00","datePublished":"2019-03-02T00:00:00+02:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"}},"description":"A Jekyll template built with Bootstrap 4 suitable for bloggers. Highly inspired by Medium’s website layout.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/bootstrap-templates/template-mediumish-bootstrap-jekyll/"},"@type":"BlogPosting","image":"http://localhost:4000/assets/img/themes/mediumish-jekyll.jpg","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
       
@@ -287,11 +287,14 @@
   <li>Jumbotron Categories</li>
   <li>Post Reviews with Stars</li>
   <li>Blurred Spoilers</li>
+  <li>Table of Content</li>
+  <li>Lazy Load Images</li>
   <li>Integrations:
     <ul>
       <li>Disqus Comments</li>
       <li>Google Analaytics</li>
       <li>Mailchimp Integration</li>
+      <li>Adsense</li>
     </ul>
   </li>
   <li>Design Features:
@@ -339,25 +342,72 @@
 
 <h5 id="yaml-post-example">YAML Post Example:</h5>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: post
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-description: "Something about this post here"
-rating: 4.5
----
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">We</span><span class="nv"> </span><span class="s">all</span><span class="nv"> </span><span class="s">wait</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">summer"</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">john</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span> <span class="nv">Jekyll</span><span class="pi">,</span> <span class="nv">tutorial</span> <span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">assets/images/5.jpg</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Something</span><span class="nv"> </span><span class="s">about</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">post</span><span class="nv"> </span><span class="s">here"</span>
+<span class="nn">---</span>
 </code></pre></div></div>
 
 <h5 id="yaml-page-example">YAML Page Example</h5>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: page
-title: Mediumish Template for Jekyll
-comments: true
----
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">page</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Mediumish Template for Jekyll</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
 </code></pre></div></div>
+
+<h5 id="rating">Rating</h5>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">We</span><span class="nv"> </span><span class="s">all</span><span class="nv"> </span><span class="s">wait</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">summer"</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">john</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span> <span class="nv">Jekyll</span><span class="pi">,</span> <span class="nv">tutorial</span> <span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">assets/images/5.jpg</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Something</span><span class="nv"> </span><span class="s">about</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">post</span><span class="nv"> </span><span class="s">here"</span>
+<span class="na">rating</span><span class="pi">:</span> <span class="s">4.5</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h5 id="adsense">Adsense</h5>
+
+<p>Enable this option by editing <code class="highlighter-rouge">_config.yml</code>.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)</span>
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+</code></pre></div></div>
+
+<h5 id="lazy-load-images">Lazy Load Images</h5>
+
+<p>Enable this option by editing  <code class="highlighter-rouge">_config.yml</code>.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Lazy Images ("enabled" or "disabled")</span>
+lazyimages: "enabled"
+</code></pre></div></div>
+
+<h5 id="table-of-contents">Table of Contents</h5>
+
+<p>Add <code class="highlighter-rouge">toc:true</code> on your post YAML.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">Education</span><span class="nv"> </span><span class="s">must</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">train</span><span class="nv"> </span><span class="s">one</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">quick,</span><span class="nv"> </span><span class="s">resolute</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">effective</span><span class="nv"> </span><span class="s">thinking."</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">john</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span> <span class="nv">Jekyll</span><span class="pi">,</span> <span class="nv">tutorial</span> <span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">assets/images/3.jpg</span>
+<span class="na">beforetoc</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Markdown</span><span class="nv"> </span><span class="s">editor</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">very</span><span class="nv"> </span><span class="s">powerful</span><span class="nv"> </span><span class="s">thing.</span><span class="nv"> </span><span class="s">In</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">article</span><span class="nv"> </span><span class="s">I'm</span><span class="nv"> </span><span class="s">going</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">show</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">what</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">actually</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">it,</span><span class="nv"> </span><span class="s">some</span><span class="nv"> </span><span class="s">tricks</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">tips</span><span class="nv"> </span><span class="s">while</span><span class="nv"> </span><span class="s">editing</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">post."</span>
+<span class="na">toc</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">beforetoc</code> adds a paragraph before the TOC is displayed. <a href="https://wowthemesnet.github.io/mediumish-theme-jekyll/education/">Demo</a></p>
 
                 </div>
                 <div class="fbcomments mt-4">

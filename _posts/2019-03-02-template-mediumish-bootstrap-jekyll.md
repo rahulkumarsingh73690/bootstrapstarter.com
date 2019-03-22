@@ -75,51 +75,68 @@ If you aren't familiar with Jekyll yet, you should know that it is a static site
     *   page comments - `comments:true`
     *   meta description (optional) - `description: "this is my meta description"`
 
-#### YAML Post Example:
+##### YAML Post Example:
 
-    ---
-    layout: post
-    title:  "We all wait for summer"
-    author: john
-    categories: [ Jekyll, tutorial ]
-    image: assets/images/5.jpg
-    description: "Something about this post here"
-    rating: 4.5
-    ---
+```markdown
+---
+layout: post
+title:  "We all wait for summer"
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+description: "Something about this post here"
+---
+```
 
-#### YAML Page Example
+##### YAML Page Example
 
-    ---
-    layout: page
-    title: Mediumish Template for Jekyll
-    comments: true
-    ---
+```markdown
+---
+layout: page
+title: Mediumish Template for Jekyll
+comments: true
+---
+```
 
-#### Adsense
+##### Rating
+
+```markdown
+---
+layout: post
+title:  "We all wait for summer"
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+description: "Something about this post here"
+rating: 4.5
+---
+```
+
+##### Adsense
 
 Enable this option by editing `_config.yml`. 
 
-```
+```markdown
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
 adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 ```
 
-#### Lazy Load Images
+##### Lazy Load Images
 
 Enable this option by editing  `_config.yml`. 
 
-```
+```markdown
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
 ```
 
-#### Table of Contents
+##### Table of Contents
 
 Add `toc:true` on your post YAML.
 
-```
+```markdown
 ---
 layout: post
 title:  "Education must also train one for quick, resolute and effective thinking."

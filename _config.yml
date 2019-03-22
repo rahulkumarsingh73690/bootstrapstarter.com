@@ -48,11 +48,5 @@ plugins:
     - jekyll-last-modified-at
 
 paginate: 18
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
+highlighter: rouge
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
